@@ -20,9 +20,9 @@
 ### 📝 RL-dLLM 
 RL-driven diffusion models applied to **large language models (LLMs)**.
 
-| Date | Name | Title | Paper | Github |
-|:-:|:-:|:-|:-:|:-:|
-| 2025-08 | `LLaDA ` | Large Language Diffusion Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://github.com/ML-GSAI/LLaDA) | [![GitHub Stars](https://img.shields.io/github/stars/InternLM/Intern-S1?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/ML-GSAI/LLaDA) |
+| Date   | Name    | Title                           | Paper | Code |
+|:------:|:-------:|---------------------------------|-------|------|
+| 2025-08 | `LLaDA` | Large Language Diffusion Models | [Paper](https://github.com/ML-GSAI/LLaDA) | [Code](https://github.com/ML-GSAI/LLaDA) |
 
 ---
 
@@ -30,17 +30,17 @@ RL-driven diffusion models applied to **large language models (LLMs)**.
 
 RL for **vision diffusion models** (image/vidoe/3D generation, editing, controllability).
 
-| Date | Name | Title | Paper | Github |
-|:-:|:-:|:-|:-:|:-:|
-| 2025-05 | `DanceGRPO` | DanceGRPO: Unleashing GRPO on Visual Generation | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.07818) | [![GitHub Stars](https://img.shields.io/github/stars/InternLM/Intern-S1?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/XueZeyue/DanceGRPO) |
-| 2025-05 | `Flow-GRPO` | Flow-GRPO: Training Flow Matching Models via Online RL | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.05470) | [![GitHub Stars](https://img.shields.io/github/stars/InternLM/Intern-S1?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/yifan123/flow_grpo) |
-| 2025-05 | `Pref-GRPO` | Pref-GRPO: Pairwise Preference Reward-based GRPO for Stable Text-to-Image Reinforcement Learning | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.05470) | [![GitHub Stars](https://img.shields.io/github/stars/InternLM/Intern-S1?style=for-the-badge&logo=github&label=GitHub&color=black)](https://codegoat24.github.io/UnifiedReward/Pref-GRPO) |
-| 2024-12 | `Video-DPO` | VideoDPO: Omni-Preference Alignment for Video Diffusion Generation | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2412.14167) | [![GitHub Stars](https://img.shields.io/github/stars/InternLM/Intern-S1?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/CIntellifusion/VideoDPO) |
-| 2024-10 | `T2V-Turbo-v2` | T2V-Turbo-v2: Enhancing Video Generation Model Post-Training through Data, Reward, and Conditional Guidance Design | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.05677) | [![GitHub Stars](https://img.shields.io/github/stars/InternLM/Intern-S1?style=for-the-badge&logo=github&label=GitHub&color=black)]() |
-| 2024-02 | `Dense Reward T2I` | A Dense Reward View on Aligning Text-to-Image Diffusion with Preference | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.02835) | [![GitHub Stars](https://img.shields.io/github/stars/InternLM/Intern-S1?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Shentao-YANG/Dense_Reward_T2I) |
-| 2023-05 | `DPOK` | DPOK: Reinforcement Learning for Fine-tuning Text-to-Image Diffusion Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.16381) | [![GitHub Stars](https://img.shields.io/github/stars/InternLM/Intern-S1?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/google-research/google-research/tree/master/dpok) |
-| 2023-04 | `ImageReward` | ImageReward: Learning and Evaluating Human Preferences for Text-to-Image Generation | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/html/2304.05977v4) | [![GitHub Stars](https://img.shields.io/github/stars/InternLM/Intern-S1?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/THUDM/ImageReward) |
-| 2023-11 | `Diffusion-DPO` | Diffusion Model Alignment Using Direct Preference Optimization | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2311.12908) | [![GitHub Stars](https://img.shields.io/github/stars/InternLM/Intern-S1?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/THUDM/ImageReward) |
+| Date   | Name        | Title                                                                 | Paper | Code |
+|:------:|:-----------:|-----------------------------------------------------------------------|-------|------|
+| 2025-05 | `DanceGRPO` | DanceGRPO: Unleashing GRPO on Visual Generation                      | [Paper](https://arxiv.org/abs/2505.07818) | [Code](https://github.com/XueZeyue/DanceGRPO) |
+| 2025-05 | `Flow-GRPO` | Flow-GRPO: Training Flow Matching Models via Online RL               | [Paper](https://arxiv.org/abs/2505.05470) | [Code](https://github.com/yifan123/flow_grpo) |
+| 2025-05 | `Pref-GRPO` | Pref-GRPO: Pairwise Preference Reward-based GRPO for Stable Text-to-Image RL | [Paper](https://arxiv.org/abs/2505.05470) | [Code](https://codegoat24.github.io/UnifiedReward/Pref-GRPO) |
+| 2024-12 | `Video-DPO` | VideoDPO: Omni-Preference Alignment for Video Diffusion Generation   | [Paper](https://arxiv.org/pdf/2412.14167) | [Code](https://github.com/CIntellifusion/VideoDPO) |
+| 2024-10 | `T2V-Turbo-v2` | T2V-Turbo-v2: Enhancing Video Generation Model Post-Training through Data, Reward, and Conditional Guidance Design | [Paper](https://arxiv.org/abs/2410.05677) |[Code](https://github.com/Ji4chenLi/t2v-turbo)  |
+| 2024-02 | `Dense-Reward-T2I` | A Dense Reward View on Aligning Text-to-Image Diffusion with Preference | [Paper](https://arxiv.org/abs/2505.02835) | [Code](https://github.com/Shentao-YANG/Dense_Reward_T2I) |
+| 2023-05 | `DPOK`     | DPOK: Reinforcement Learning for Fine-tuning Text-to-Image Diffusion Models | [Paper](https://arxiv.org/abs/2305.16381) | [Code](https://github.com/google-research/google-research/tree/master/dpok) |
+| 2023-04 | `ImageReward` | ImageReward: Learning and Evaluating Human Preferences for Text-to-Image Generation | [Paper](https://arxiv.org/html/2304.05977v4) | [Code](https://github.com/THUDM/ImageReward) |
+| 2023-11 | `Diffusion-DPO` | Diffusion Model Alignment Using Direct Preference Optimization | [Paper](https://arxiv.org/abs/2311.12908) | [Code](https://github.com/THUDM/ImageReward) |
 
 ---
 
@@ -48,22 +48,23 @@ RL for **vision diffusion models** (image/vidoe/3D generation, editing, controll
 
 RL for **multimodal diffusion models** (multimodal understanding and generation).
 
-| Date | Name | Title | Paper | Github |
-|:-:|:-:|:-|:-:|:-:|
-| 2025-08 | `MMaDA` | MMaDA: Multimodal Large Diffusion Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2508.15763v1) | [![GitHub Stars](https://img.shields.io/github/stars/InternLM/Intern-S1?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Gen-Verse/MMaDA) |
-| 2025-08 | `LLaDA-V` | LLaDA-V: Large Language Diffusion Models with Visual Instruction Tuning | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.16933) | [![GitHub Stars](https://img.shields.io/github/stars/InternLM/Intern-S1?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/ML-GSAI/LLaDA-V) |
-| 2025-05 | `R1-Reward` | R1-Reward: Training Multimodal Reward Model Through Stable Reinforcement Learning | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.02835) | [![GitHub Stars](https://img.shields.io/github/stars/InternLM/Intern-S1?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/yfzhang114/r1_reward) |
-| 2025-05 | `UnifiedReward-Think` | Unified Multimodal Chain-of-Thought Reward Model through Reinforcement Fine-Tuning | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2505.03318) | [![GitHub Stars](https://img.shields.io/github/stars/InternLM/Intern-S1?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/CodeGoat24/UnifiedReward) |
-| 2025-03 | `UnifiedReward` | Unified Reward Model for Multimodal Understanding and Generation | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2503.05236) | [![GitHub Stars](https://img.shields.io/github/stars/InternLM/Intern-S1?style=for-the-badge&logo=github&label=GitHub&color=black)](https://codegoat24.github.io/UnifiedReward/) |
+| Date   | Name            | Title                                                              | Paper | Code |
+|:------:|:---------------:|--------------------------------------------------------------------|-------|------|
+| 2025-08 | `MMaDA`         | MMaDA: Multimodal Large Diffusion Language Models                 | [Paper](https://arxiv.org/abs/2508.15763v1) | [Code](https://github.com/Gen-Verse/MMaDA) |
+| 2025-08 | `LLaDA-V`       | LLaDA-V: Large Language Diffusion Models with Visual Instruction Tuning | [Paper](https://arxiv.org/abs/2505.16933) | [Code](https://github.com/ML-GSAI/LLaDA-V) |
+| 2025-05 | `R1-Reward`     | R1-Reward: Training Multimodal Reward Model Through Stable RL      | [Paper](https://arxiv.org/abs/2505.02835) | [Code](https://github.com/yfzhang114/r1_reward) |
+| 2025-05 | `UnifiedReward-Think` | Unified Multimodal Chain-of-Thought Reward Model through Reinforcement Fine-Tuning | [Paper](https://arxiv.org/pdf/2505.03318) | [Code](https://github.com/CodeGoat24/UnifiedReward) |
+| 2025-03 | `UnifiedReward` | Unified Reward Model for Multimodal Understanding and Generation   | [Paper](https://arxiv.org/abs/2503.05236) | [Code](https://codegoat24.github.io/UnifiedReward/) |
 
+---
 
 ### 🤖 RL-dVLA / dRobotics
 
 RL-diffusion in **vision-language-action (VLA)** systems and **robotics applications**.
 
-| Date | Name | Title | Paper | Github |
-|:-:|:-:|:-|:-:|:-:|
-| 2025-08 | `$\pi$0` | $\pi$0: A Vision-Language-Action Flow Model for General Robot Control | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2508.15763v1) |  |
+| Date   | Name   | Title                                                               | Paper | Code |
+|:------:|:------:|---------------------------------------------------------------------|-------|------|
+| 2025-08 | `π0`   | π0: A Vision-Language-Action Flow Model for General Robot Control  | [Paper](https://arxiv.org/abs/2508.15763v1) | |
 
 ---
 
@@ -71,9 +72,9 @@ RL-diffusion in **vision-language-action (VLA)** systems and **robotics applicat
 
 RL-driven diffusion in **scientific domains** (molecule, protein, physics, material science).
 
-| Date | Name | Title | Paper | Github |
-|:-:|:-:|:-|:-:|:-:|
-| 2025-08 | `AlphaFold` | | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://deepmind.google/science/alphafold/) |  |
+| Date   | Name       | Title | Paper | Code |
+|:------:|:----------:|-------|-------|------|
+| 2025-08 | `AlphaFold` |       | [Paper](https://deepmind.google/science/alphafold/) | |
 
 ---
 

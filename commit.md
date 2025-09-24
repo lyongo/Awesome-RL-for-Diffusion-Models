@@ -29,8 +29,4 @@ git commit
 ```bash
 git push -u origin dev
 ```
-到 GitHub 打开 PR：
-- base：上游仓库 `dev`
-- compare：你的 Fork `dev`
-
 即可等待维护者审核与合并。

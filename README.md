@@ -1,5 +1,7 @@
-# Awesome RL for Diffusion Models [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+![logo](./img/logo.png)
 
+# Reward-driven Diffusion Models：A Comprehensive Review 
+<!-- [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) -->
 > A curated list of resources and papers on **Reinforcement Learning (RL) for Diffusion Models** — covering reward-driven training, preference optimization, RLHF, and domain-specific applications in **LLMs, Vision, Multimodal Learning, VLA/Robotics, and Science**.
 
 ---
@@ -38,9 +40,10 @@ RL for **vision diffusion models** (image/vidoe/3D generation, editing, controll
 | 2024-12 | `Video-DPO` | VideoDPO: Omni-Preference Alignment for Video Diffusion Generation   | [Paper](https://arxiv.org/pdf/2412.14167) | [Code](https://github.com/CIntellifusion/VideoDPO) |
 | 2024-10 | `T2V-Turbo-v2` | T2V-Turbo-v2: Enhancing Video Generation Model Post-Training through Data, Reward, and Conditional Guidance Design | [Paper](https://arxiv.org/abs/2410.05677) |[Code](https://github.com/Ji4chenLi/t2v-turbo)  |
 | 2024-02 | `Dense-Reward-T2I` | A Dense Reward View on Aligning Text-to-Image Diffusion with Preference | [Paper](https://arxiv.org/abs/2505.02835) | [Code](https://github.com/Shentao-YANG/Dense_Reward_T2I) |
+| 2023-11 | `Diffusion-DPO` | Diffusion Model Alignment Using Direct Preference Optimization | [Paper](https://arxiv.org/abs/2311.12908) | [Code](https://github.com/THUDM/ImageReward) |
 | 2023-05 | `DPOK`     | DPOK: Reinforcement Learning for Fine-tuning Text-to-Image Diffusion Models | [Paper](https://arxiv.org/abs/2305.16381) | [Code](https://github.com/google-research/google-research/tree/master/dpok) |
 | 2023-04 | `ImageReward` | ImageReward: Learning and Evaluating Human Preferences for Text-to-Image Generation | [Paper](https://arxiv.org/html/2304.05977v4) | [Code](https://github.com/THUDM/ImageReward) |
-| 2023-11 | `Diffusion-DPO` | Diffusion Model Alignment Using Direct Preference Optimization | [Paper](https://arxiv.org/abs/2311.12908) | [Code](https://github.com/THUDM/ImageReward) |
+
 
 ---
 

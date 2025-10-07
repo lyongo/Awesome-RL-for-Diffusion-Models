@@ -25,20 +25,6 @@
 
 ### 📝 RL-dLLM 
 
-Typical Diffusion LLMs, but without RL.
-
-
-| Date    | Name           | Title                                                        | Paper                                                        | Code                                                         |
-| ------- | -------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 2023-03 |  | Diffusion Models for Non-autoregressive Text Generation: A Survey |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](arxiv.org/abs/2303.06574) |  |
-| 2025-08 | `LLaDA`        | Large Language Diffusion Models                              | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2502.09992) | [![GitHub Stars](https://img.shields.io/github/stars/ML-GSAI/LLaDA?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/ML-GSAI/LLaDA) |
-| 2025-06 | `DLM-One`      | DLM-One: Diffusion Language Models for One-Step Sequence Generation | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2506.00290) |                                                              |
-| 2024-09 | `DoT`          | Diffusion of Thought: Chain-of-Thought Reasoning in Diffusion Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://openreview.net/pdf?id=G0v0TxX01N) |                                                              |
-| 2023-10 | `DiffuSeq-v2`  | DiffuSeq-v2: Bridging Discrete and Continuous Text Spaces for Accelerated Seq2Seq Diffusion Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.05793) | [![GitHub Stars](https://img.shields.io/github/stars/Shark-NLP/DiffuSeq?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Shark-NLP/DiffuSeq) |
-| 2023-05 | `DiffuSeq`     | DiffuSeq: Sequence to Sequence Text Generation with Diffusion Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2210.08933) | [![GitHub Stars](https://img.shields.io/github/stars/Shark-NLP/DiffuSeq?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Shark-NLP/DiffuSeq) |
-| 2022-11 | `SED`          | Self-conditioned Embedding Diffusion for Text Generation     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2211.04236) |                                                              |
-| 2022-05 | `Diffusion-LM` | Diffusion-LM Improves Controllable Text Generation           | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2205.14217) | [![GitHub Stars](https://img.shields.io/github/stars/XiangLi1999/Diffusion-LM?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/XiangLi1999/Diffusion-LM) |
-
 RL-driven diffusion models applied to **large language models (LLMs)**.
 
 
@@ -51,6 +37,7 @@ RL-driven diffusion models applied to **large language models (LLMs)**.
 | 2025-10 | `AGRPO` | Principled and Tractable RL for Reasoning with Diffusion Language Models |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.04019)| |
 | 2025-10 | `SAPO-LLaDA` | Step-Aware Policy Optimization for Reasoning in Diffusion Large Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2510.01544) | |
 | 2025-04 | `d1` | d1: Scaling Reasoning in Diffusion Large Language Models via Reinforcement Learning | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2504.12216) | [![GitHub Stars](https://img.shields.io/github/stars/dllm-reasoning/d1?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/dllm-reasoning/d1) |
+| 2025-07 | `wd1` | wd1: Weighted Policy Optimization for Reasoning in Diffusion Language Models |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2507.08838)| [![GitHub Stars](https://img.shields.io/github/stars/xiaohangt/wd1?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/xiaohangt/wd1) |
 | 2025-05 | `LLaDA 1.5` | LLaDA 1.5: Variance-Reduced Preference Optimization for Large Language Diffusion Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.19223) |  [![GitHub Stars](https://img.shields.io/github/stars/ML-GSAI/LLaDA-1.5?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/ML-GSAI/LLaDA-1.5)|
 | 2025-09 | `RFG` | RFG: Test-Time Scaling for Diffusion Large Language Model Reasoning with Reward-Free Guidance | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2509.25604) | |
 | 2025-09 | `IGPO` | Inpainting-Guided Policy Optimization for Diffusion Large Language Models |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2509.10396) | |

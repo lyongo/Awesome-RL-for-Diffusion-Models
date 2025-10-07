@@ -26,9 +26,20 @@
 ### 📝 RL-dLLM 
 RL-driven diffusion models applied to **large language models (LLMs)**.
 
-| Date   | Name    | Title                           | Paper | Code |
-|:------:|:-------:|---------------------------------|-------|------|
-| 2025-08 | `LLaDA` | Large Language Diffusion Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2502.09992) | [![GitHub Stars](https://img.shields.io/github/stars/ML-GSAI/LLaDA?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/ML-GSAI/LLaDA) |
+
+
+| Date    | Name           | Title                                                        | Paper                                                        | Code                                                         |
+| ------- | -------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 2025-08 | `LLaDA`        | Large Language Diffusion Models                              | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2502.09992) | [![GitHub Stars](https://img.shields.io/github/stars/ML-GSAI/LLaDA?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/ML-GSAI/LLaDA) |
+| 2025-06 | `DLM-One`      | DLM-One: Diffusion Language Models for One-Step Sequence Generation | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2506.00290) |                                                              |
+| 2024-09 | `DoT`          | Diffusion of Thought: Chain-of-Thought Reasoning in Diffusion Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://openreview.net/pdf?id=G0v0TxX01N) |                                                              |
+| 2023-10 | `DiffuSeq-v2`  | DiffuSeq-v2: Bridging Discrete and Continuous Text Spaces for Accelerated Seq2Seq Diffusion Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.05793) | [![GitHub Stars](https://img.shields.io/github/stars/Shark-NLP/DiffuSeq?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Shark-NLP/DiffuSeq) |
+| 2023-05 | `DiffuSeq`     | DiffuSeq: Sequence to Sequence Text Generation with Diffusion Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2210.08933) | [![GitHub Stars](https://img.shields.io/github/stars/Shark-NLP/DiffuSeq?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Shark-NLP/DiffuSeq) |
+| 2023-05 | `AnalogBits`   | Analog Bits: Generating Discrete Data using Diffusion Models with Self-Conditioning | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2208.04202) | [![GitHub Stars](https://img.shields.io/github/stars/lucidrains/bit-diffusion?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/lucidrains/bit-diffusion) |
+| 2022-11 | `SED`          | Self-conditioned Embedding Diffusion for Text Generation     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2211.04236) |                                                              |
+| 2022-05 | `Diffusion-LM` | Diffusion-LM Improves Controllable Text Generation           | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2205.14217) | [![GitHub Stars](https://img.shields.io/github/stars/XiangLi1999/Diffusion-LM?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/XiangLi1999/Diffusion-LM) |
+
+
 
 ---
 

@@ -26,8 +26,6 @@
 ### 📝 RL-dLLM 
 RL-driven diffusion models applied to **large language models (LLMs)**.
 
-
-
 | Date    | Name           | Title                                                        | Paper                                                        | Code                                                         |
 | ------- | -------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 2025-08 | `LLaDA`        | Large Language Diffusion Models                              | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2502.09992) | [![GitHub Stars](https://img.shields.io/github/stars/ML-GSAI/LLaDA?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/ML-GSAI/LLaDA) |
@@ -40,8 +38,9 @@ RL-driven diffusion models applied to **large language models (LLMs)**.
 | 2025-05 | `DCoLT`        | Reinforcing the Diffusion Chain of Lateral Thought with Diffusion Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.10446) | [![GitHub Stars](https://img.shields.io/github/stars/maple-research-lab/LLaDOU?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/maple-research-lab/LLaDOU) |
 | 2025-06 | `DiffuCoder`        | DiffuCoder: Understanding and Improving Masked Diffusion Models for Code Generation | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2506.20639) | [![GitHub Stars](https://img.shields.io/github/stars/apple/ml-diffucoder?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/apple/ml-diffucoder) |
 | 2025-09 | `TraceRL` (`TraDo`) | Revolutionizing Reinforcement Learning Framework for Diffusion Large Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2509.06949) | [![GitHub Stars](https://img.shields.io/github/stars/Gen-Verse/dLLM-RL?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Gen-Verse/dLLM-RL)   |
-| 2025-09 | `LLMDPD`            | LLM-Driven Policy Diffusion: Enhancing Generalization in Offline RL | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2509.00347) |                             |
 | 2025-10 | `DiFFPO`            | DiFFPO: Training Diffusion LLMs to Reason Fast and Furious via Reinforcement Learning | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.02212) |                            |
+| 2023-03 |  | Diffusion Models for Non-autoregressive Text Generation: A Survey |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](arxiv.org/abs/2303.06574) |  |
+| 2025-10 | `AGRPO` | Principled and Tractable RL for Reasoning with Diffusion Language Models |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.04019)| |
 
 ---
 

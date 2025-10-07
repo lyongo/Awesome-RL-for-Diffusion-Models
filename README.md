@@ -24,11 +24,23 @@
 ## 📄 Paper List
 
 ### 📝 RL-dLLM 
+
 RL-driven diffusion models applied to **large language models (LLMs)**.
 
-| Date   | Name    | Title                           | Paper | Code |
-|:------:|:-------:|---------------------------------|-------|------|
-| 2025-08 | `LLaDA` | Large Language Diffusion Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2502.09992) | [![GitHub Stars](https://img.shields.io/github/stars/ML-GSAI/LLaDA?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/ML-GSAI/LLaDA) |
+
+| Date    | Name           | Title                                                        | Paper                                                        | Code                                                         |
+| ------- | -------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 2025-05 | `DCoLT`        | Reinforcing the Diffusion Chain of Lateral Thought with Diffusion Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.10446) | [![GitHub Stars](https://img.shields.io/github/stars/maple-research-lab/LLaDOU?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/maple-research-lab/LLaDOU) |
+| 2025-06 | `DiffuCoder`        | DiffuCoder: Understanding and Improving Masked Diffusion Models for Code Generation | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2506.20639) | [![GitHub Stars](https://img.shields.io/github/stars/apple/ml-diffucoder?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/apple/ml-diffucoder) |
+| 2025-09 | `TraceRL` (`TraDo`) | Revolutionizing Reinforcement Learning Framework for Diffusion Large Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2509.06949) | [![GitHub Stars](https://img.shields.io/github/stars/Gen-Verse/dLLM-RL?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Gen-Verse/dLLM-RL)   |
+| 2025-10 | `DiFFPO`            | DiFFPO: Training Diffusion LLMs to Reason Fast and Furious via Reinforcement Learning | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.02212) |                            |
+| 2025-10 | `AGRPO` | Principled and Tractable RL for Reasoning with Diffusion Language Models |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.04019)| |
+| 2025-10 | `SAPO-LLaDA` | Step-Aware Policy Optimization for Reasoning in Diffusion Large Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2510.01544) | |
+| 2025-04 | `d1` | d1: Scaling Reasoning in Diffusion Large Language Models via Reinforcement Learning | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2504.12216) | [![GitHub Stars](https://img.shields.io/github/stars/dllm-reasoning/d1?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/dllm-reasoning/d1) |
+| 2025-07 | `wd1` | wd1: Weighted Policy Optimization for Reasoning in Diffusion Language Models |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2507.08838)| [![GitHub Stars](https://img.shields.io/github/stars/xiaohangt/wd1?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/xiaohangt/wd1) |
+| 2025-05 | `LLaDA 1.5` | LLaDA 1.5: Variance-Reduced Preference Optimization for Large Language Diffusion Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.19223) |  [![GitHub Stars](https://img.shields.io/github/stars/ML-GSAI/LLaDA-1.5?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/ML-GSAI/LLaDA-1.5)|
+| 2025-09 | `RFG` | RFG: Test-Time Scaling for Diffusion Large Language Model Reasoning with Reward-Free Guidance | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2509.25604) | |
+| 2025-09 | `IGPO` | Inpainting-Guided Policy Optimization for Diffusion Large Language Models |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2509.10396) | |
 
 ---
 

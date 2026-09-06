@@ -2,7 +2,7 @@
 
 # Reinforcement Learning-driven Diffusion Models: Language, Vision, and Beyond
 <!-- [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) -->
-> A curated list of resources and papers accompanying the survey **Reinforcement Learning-driven Diffusion Models: Language, Vision, and Beyond**.
+> This repository tracks research on reinforcement learning-driven diffusion models, accompanying the survey **Reinforcement Learning-driven Diffusion Models: Language, Vision, and Beyond**. It focuses on how RL, reward modeling, preference optimization, and policy-gradient post-training reshape diffusion models from purely data-driven generators into goal-directed systems across language, vision, multimodal generation, robotics, and scientific discovery.
 
 <p align="center">
   <a href="./img/RL4Diff-timeline-new.pdf">
@@ -32,7 +32,7 @@
 
 ### Reinforcement Learning for Diffusion Large Language Models
 
-Diffusion-based LLMs and RL-driven diffusion language model post-training.
+Works on diffusion-based language models and post-training methods that treat masking, unmasking, or denoising trajectories as optimization targets. This section covers reasoning alignment, RLVR/GRPO-style training, reward guidance, efficient inference, and foundational diffusion language modeling.
 
 |  Date   |      Name      | Title                                                        | Paper                                                        | Code                                                         |
 | :-----: | :------------: | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -85,7 +85,7 @@ Diffusion-based LLMs and RL-driven diffusion language model post-training.
 
 ### Reinforcement Learning for Diffusion Vision Models
 
-RL for **vision diffusion models** (image/vidoe/3D generation, editing, controllability).
+Research on aligning image, video, audio, and 3D diffusion or flow models with human preferences and task-specific rewards. Topics include RLHF/RLAIF, reward backpropagation, DPO/KTO/GRPO variants, safety, physical consistency, world consistency, editing, and controllable generation.
 
 | Date   | Name        | Title                                                                 | Paper | Code |
 |:------:|:-----------:|-----------------------------------------------------------------------|-------|------|
@@ -149,7 +149,7 @@ RL for **vision diffusion models** (image/vidoe/3D generation, editing, controll
 
 ### Reinforcement Learning for Diffusion Multimodal Models
 
-RL for **multimodal diffusion models** (multimodal understanding and generation).
+Unified multimodal diffusion and reward-model research where language, vision, audio, and generation are optimized together. This section highlights multimodal reward modeling, visual reasoning rewards, unified image-text generation, and RL post-training for UMMs and diffusion MLLMs.
 
 | Date   | Name            | Title                                                              | Paper | Code |
 |:------:|:---------------:|--------------------------------------------------------------------|-------|------|
@@ -177,7 +177,7 @@ RL for **multimodal diffusion models** (multimodal understanding and generation)
 
 ### Reinforcement Learning for Diffusion Robotics
 
-RL-diffusion in **vision-language-action (VLA)** systems and **robotics applications**.
+Diffusion and flow policies studied as decision-making systems for robotics, planning, offline and online RL, and VLA post-training. The listed work emphasizes reward- or value-guided action generation, policy refinement, world-model interaction, and deployment under real-world control constraints.
 
 | Date   | Name   | Title                                                               | Paper | Code |
 |:------:|:------:|---------------------------------------------------------------------|-------|------|
@@ -237,7 +237,7 @@ RL-diffusion in **vision-language-action (VLA)** systems and **robotics applicat
 
 ### Reinforcement Learning for Diffusion Science Models
 
-RL-driven diffusion in **scientific domains** (molecule, protein, physics, material science).
+Applications of RL-driven diffusion to scientific generation and inverse design. This section covers molecular, protein, DNA/RNA, material, medical, and physics domains where rewards encode physical validity, binding or functional objectives, stability, diversity, and task-specific constraints.
 
 | Date   | Name       | Title | Paper | Code |
 |:------:|:----------:|-------|-------|------|

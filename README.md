@@ -1,19 +1,29 @@
 ![logo](./img/logo.png)
 
-# Reward-driven Diffusion Models：A Comprehensive Review 
+# Reinforcement Learning-driven Diffusion Models: Language, Vision, and Beyond
 <!-- [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) -->
-> A curated list of resources and papers on **Reinforcement Learning (RL) for Diffusion Models** — covering reward-driven training, preference optimization, RLHF, and domain-specific applications in **LLMs, Vision, Multimodal Learning, VLA/Robotics, and Science**.
+> A curated list of resources and papers accompanying the survey **Reinforcement Learning-driven Diffusion Models: Language, Vision, and Beyond**.
+
+<p align="center">
+  <a href="./img/RL4Diff-timeline-new.pdf">
+    <img src="./img/RL4Diff-timeline-new.png" alt="RL4Diff timeline" width="100%">
+  </a>
+</p>
+
+<p align="center">
+  <a href="./img/RL4Diff-timeline-new.pdf">View the full timeline PDF</a>
+</p>
 
 ---
 
-## 📖 Contents
+## Contents
 
-1. [📝 RL-dLLM](#-rl-dllm)
-2. [👁️ RL-dVision](#️-rl-dvision)
-3. [🎨 RL-dMM (Multimodal)](#-rl-dmm)
-4. [🤖 RL-dVLA / dRobotics](#-rl-dvla--drobotics)
-5. [🔬 RL-dScience](#-rl-dscience)
-6. [📌 Contributing](#-contributing)
+1. [Reinforcement Learning for Diffusion Large Language Models](#reinforcement-learning-for-diffusion-large-language-models)
+2. [Reinforcement Learning for Diffusion Vision Models](#reinforcement-learning-for-diffusion-vision-models)
+3. [Reinforcement Learning for Diffusion Multimodal Models](#reinforcement-learning-for-diffusion-multimodal-models)
+4. [Reinforcement Learning for Diffusion Robotics](#reinforcement-learning-for-diffusion-robotics)
+5. [Reinforcement Learning for Diffusion Science Models](#reinforcement-learning-for-diffusion-science-models)
+6. [Contributing](#contributing)
 ---
 <!-- Paper 列使用 arXiv 徽章：https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white
 <!-- [![Blog](https://img.shields.io/badge/blog-111111?style=for-the-badge&logo=hashnode&logoColor=white)](https://example.com/blog-post) -->
@@ -21,30 +31,13 @@
 <!-- Code 列使用 GitHub Star 徽章：https://img.shields.io/github/stars/{owner}/{repo}?style=for-the-badge&logo=github&label=GitHub&color=black --> 
 
 
-## 📄 Paper List
+## Paper List
 
-### 📝 RL-dLLM 
+### Reinforcement Learning for Diffusion Large Language Models
 
-Typical Diffusion LLMs, but without RL. (should be briefly written)
-
+Diffusion-based LLMs and RL-driven diffusion language model post-training.
 
 |  Date   |      Name      | Title                                                        | Paper                                                        | Code                                                         |
-| :-----: | :------------: | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 2025-08 |    `LLaDA`     | Large Language Diffusion Models                              | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2502.09992) | [![GitHub Stars](https://img.shields.io/github/stars/ML-GSAI/LLaDA?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/ML-GSAI/LLaDA) |
-| 2025-06 |   `DLM-One`    | DLM-One: Diffusion Language Models for One-Step Sequence Generation | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2506.00290) |                                                              |
-| 2024-09 |     `DoT`      | Diffusion of Thought: Chain-of-Thought Reasoning in Diffusion Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://openreview.net/pdf?id=G0v0TxX01N) |                                                              |
-| 2023-10 | `DiffuSeq-v2`  | DiffuSeq-v2: Bridging Discrete and Continuous Text Spaces for Accelerated Seq2Seq Diffusion Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.05793) | [![GitHub Stars](https://img.shields.io/github/stars/Shark-NLP/DiffuSeq?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Shark-NLP/DiffuSeq) |
-| 2023-05 |   `DiffuSeq`   | DiffuSeq: Sequence to Sequence Text Generation with Diffusion Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2210.08933) | [![GitHub Stars](https://img.shields.io/github/stars/Shark-NLP/DiffuSeq?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Shark-NLP/DiffuSeq) |
-| 2023-03 |                | Diffusion Models for Non-autoregressive Text Generation: A Survey | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](arxiv.org/abs/2303.06574) |                                                              |
-| 2022-11 |     `SED`      | Self-conditioned Embedding Diffusion for Text Generation     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2211.04236) |                                                              |
-| 2022-05 | `Diffusion-LM` | Diffusion-LM Improves Controllable Text Generation           | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2205.14217) | [![GitHub Stars](https://img.shields.io/github/stars/XiangLi1999/Diffusion-LM?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/XiangLi1999/Diffusion-LM) |
-
-
-
-RL-driven diffusion models applied to **large language models (LLMs)**.
-
-
-| Date    | Name           | Title                                                        | Paper                                                        | Code                                                         |
 | :-----: | :------------: | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 2026-07 | `Mask-Aware PG` | Mask-Aware Policy Gradients for Diffusion Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.15200) | [![GitHub Stars](https://img.shields.io/github/stars/Haran71/mask-aware-policy-gradients?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Haran71/mask-aware-policy-gradients) |
 | 2026-07 | `SLIM-RL` | SLIM-RL: Risk-Budgeted Random-Masking RL for Diffusion LLMs Without Trajectory Slicing | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.00208) | [![GitHub Stars](https://img.shields.io/github/stars/laolaorkkkkk/SLIM-RL?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/laolaorkkkkk/SLIM-RL) |
@@ -58,22 +51,30 @@ RL-driven diffusion models applied to **large language models (LLMs)**.
 | 2025-10 | `SPG` | SPG: Sandwiched Policy Gradient for Masked Diffusion Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.09541) | [![GitHub Stars](https://img.shields.io/github/stars/facebookresearch/SPG?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/facebookresearch/SPG) |
 | 2025-10 | `GDPO` | Improving Reasoning for Diffusion Language Models via Group Diffusion Policy Optimization | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.08554) | [![GitHub Stars](https://img.shields.io/github/stars/kevinrojas1499/GDPO?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/kevinrojas1499/GDPO) |
 | 2025-10 | `DMPO` | Enhancing Reasoning for Diffusion LLMs via Distribution Matching Policy Optimization | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.08233) | [![GitHub Stars](https://img.shields.io/github/stars/yuchen-zhu-zyc/DMPO?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/yuchen-zhu-zyc/DMPO) |
-| 2025-10 | `DiFFPO`            | DiFFPO: Training Diffusion LLMs to Reason Fast and Furious via Reinforcement Learning | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.02212) |                            |
-| 2025-10 | `AGRPO` | Principled and Tractable RL for Reasoning with Diffusion Language Models |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.04019)| |
-| 2025-10 | `SAPO-LLaDA` | Step-Aware Policy Optimization for Reasoning in Diffusion Large Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2510.01544) | |
+| 2025-10 | `DiFFPO`            | DiFFPO: Training Diffusion LLMs to Reason Fast and Furious via Reinforcement Learning | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.02212) | - |
+| 2025-10 | `AGRPO` | Principled and Tractable RL for Reasoning with Diffusion Language Models |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.04019)| - |
+| 2025-10 | `SAPO-LLaDA` | Step-Aware Policy Optimization for Reasoning in Diffusion Large Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2510.01544) | - |
 | 2025-09 | `TraceRL` (`TraDo`) | Revolutionizing Reinforcement Learning Framework for Diffusion Large Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2509.06949) | [![GitHub Stars](https://img.shields.io/github/stars/Gen-Verse/dLLM-RL?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Gen-Verse/dLLM-RL)   |
-| 2025-09 | `RFG` | RFG: Test-Time Scaling for Diffusion Large Language Model Reasoning with Reward-Free Guidance | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2509.25604) | |
-| 2025-09 | `IGPO` | Inpainting-Guided Policy Optimization for Diffusion Large Language Models |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2509.10396) | |
+| 2025-09 | `RFG` | RFG: Test-Time Scaling for Diffusion Large Language Model Reasoning with Reward-Free Guidance | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2509.25604) | - |
+| 2025-09 | `IGPO` | Inpainting-Guided Policy Optimization for Diffusion Large Language Models |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2509.10396) | - |
+| 2025-08 |    `LLaDA`     | Large Language Diffusion Models                              | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2502.09992) | [![GitHub Stars](https://img.shields.io/github/stars/ML-GSAI/LLaDA?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/ML-GSAI/LLaDA) |
 | 2025-08 | `MDPO` | MDPO: Overcoming the Training-Inference Divide of Masked Diffusion Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2508.13148) | [![GitHub Stars](https://img.shields.io/github/stars/autonomousvision/mdpo?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/autonomousvision/mdpo) |
 | 2025-07 | `wd1` | wd1: Weighted Policy Optimization for Reasoning in Diffusion Language Models |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/pdf/2507.08838)| [![GitHub Stars](https://img.shields.io/github/stars/xiaohangt/wd1?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/xiaohangt/wd1) |
+| 2025-06 |   `DLM-One`    | DLM-One: Diffusion Language Models for One-Step Sequence Generation | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2506.00290) | - |
 | 2025-06 | `DiffuCoder`        | DiffuCoder: Understanding and Improving Masked Diffusion Models for Code Generation | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2506.20639) | [![GitHub Stars](https://img.shields.io/github/stars/apple/ml-diffucoder?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/apple/ml-diffucoder) |
 | 2025-05 | `DCoLT`        | Reinforcing the Diffusion Chain of Lateral Thought with Diffusion Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.10446) | [![GitHub Stars](https://img.shields.io/github/stars/maple-research-lab/LLaDOU?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/maple-research-lab/LLaDOU) |
 | 2025-05 | `LLaDA 1.5` | LLaDA 1.5: Variance-Reduced Preference Optimization for Large Language Diffusion Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.19223) |  [![GitHub Stars](https://img.shields.io/github/stars/ML-GSAI/LLaDA-1.5?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/ML-GSAI/LLaDA-1.5)|
 | 2025-04 | `d1` | d1: Scaling Reasoning in Diffusion Large Language Models via Reinforcement Learning | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2504.12216) | [![GitHub Stars](https://img.shields.io/github/stars/dllm-reasoning/d1?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/dllm-reasoning/d1) |
+| 2024-09 |     `DoT`      | Diffusion of Thought: Chain-of-Thought Reasoning in Diffusion Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://openreview.net/pdf?id=G0v0TxX01N) | - |
+| 2023-10 | `DiffuSeq-v2`  | DiffuSeq-v2: Bridging Discrete and Continuous Text Spaces for Accelerated Seq2Seq Diffusion Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.05793) | [![GitHub Stars](https://img.shields.io/github/stars/Shark-NLP/DiffuSeq?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Shark-NLP/DiffuSeq) |
+| 2023-05 |   `DiffuSeq`   | DiffuSeq: Sequence to Sequence Text Generation with Diffusion Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2210.08933) | [![GitHub Stars](https://img.shields.io/github/stars/Shark-NLP/DiffuSeq?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Shark-NLP/DiffuSeq) |
+| 2023-03 | Survey | Diffusion Models for Non-autoregressive Text Generation: A Survey | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2303.06574) | - |
+| 2022-11 |     `SED`      | Self-conditioned Embedding Diffusion for Text Generation     | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2211.04236) | - |
+| 2022-05 | `Diffusion-LM` | Diffusion-LM Improves Controllable Text Generation           | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2205.14217) | [![GitHub Stars](https://img.shields.io/github/stars/XiangLi1999/Diffusion-LM?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/XiangLi1999/Diffusion-LM) |
 
 ---
 
-### 👁️ RL-dVision
+### Reinforcement Learning for Diffusion Vision Models
 
 RL for **vision diffusion models** (image/vidoe/3D generation, editing, controllability).
 
@@ -121,7 +122,7 @@ RL for **vision diffusion models** (image/vidoe/3D generation, editing, controll
 
 ---
 
-### 🎨 RL-dMM
+### Reinforcement Learning for Diffusion Multimodal Models
 
 RL for **multimodal diffusion models** (multimodal understanding and generation).
 
@@ -143,7 +144,7 @@ RL for **multimodal diffusion models** (multimodal understanding and generation)
 
 ---
 
-### 🤖 RL-dVLA / dRobotics
+### Reinforcement Learning for Diffusion Robotics
 
 RL-diffusion in **vision-language-action (VLA)** systems and **robotics applications**.
 
@@ -168,27 +169,27 @@ RL-diffusion in **vision-language-action (VLA)** systems and **robotics applicat
 | 2025-09 | `World-Env` | World-Env: Leveraging World Model as a Virtual Environment for VLA Post-Training | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2509.24948) | [![GitHub Stars](https://img.shields.io/github/stars/amap-cvlab/world-env?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/amap-cvlab/world-env) |
 | 2025-09 | `VLAC` | A Vision-Language-Action-Critic Model for Robotic Real-World Reinforcement Learning | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2509.15937) | [![GitHub Stars](https://img.shields.io/github/stars/InternRobotics/VLAC?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/InternRobotics/VLAC) |
 | 2025-09 | `SimpleVLA-RL` | SimpleVLA-RL: Scaling VLA Training via Reinforcement Learning | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2509.09674) | [![GitHub Stars](https://img.shields.io/github/stars/PRIME-RL/SimpleVLA-RL?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/PRIME-RL/SimpleVLA-RL) |
-| 2025-09 | `DreamControl`| DreamControl: Human-Inspired Whole-Body Humanoid Control for Scene Interaction via Guided Diffusion| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](http://arxiv.org/abs/2509.14353)  | |
-| 2025-09 | | Beyond Human Demonstrations: Diffusion-Based Reinforcement Learning to Generate Data for VLA Training | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](http://arxiv.org/abs/2509.19752)  | |
-| 2025-08 | `π0`   | π0: A Vision-Language-Action Flow Model for General Robot Control  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2508.15763v1) ||
-| 2025-08 | `DP-RRL`| A Hybrid Framework Using Diffusion Policy and Residual RL for Force-Sensitive Robotic Manipulation| [ Paper ](https://ieeexplore.ieee.org/document/11114901) | |
-| 2025-08 | `D3P`| D3P: Dynamic Denoising Diffusion Policy via Reinforcement Learning | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](http://arxiv.org/abs/2508.06804) | |
+| 2025-09 | `DreamControl`| DreamControl: Human-Inspired Whole-Body Humanoid Control for Scene Interaction via Guided Diffusion| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](http://arxiv.org/abs/2509.14353)  | - |
+| 2025-09 | - | Beyond Human Demonstrations: Diffusion-Based Reinforcement Learning to Generate Data for VLA Training | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](http://arxiv.org/abs/2509.19752)  | - |
+| 2025-08 | `π0`   | π0: A Vision-Language-Action Flow Model for General Robot Control  | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2508.15763v1) | - |
+| 2025-08 | `DP-RRL`| A Hybrid Framework Using Diffusion Policy and Residual RL for Force-Sensitive Robotic Manipulation| [ Paper ](https://ieeexplore.ieee.org/document/11114901) | - |
+| 2025-08 | `D3P`| D3P: Dynamic Denoising Diffusion Policy via Reinforcement Learning | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](http://arxiv.org/abs/2508.06804) | - |
 | 2025-08 | `DiWA`| DiWA: Diffusion Policy Adaptation with World Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](http://arxiv.org/abs/2508.03645) | [![GitHub Stars](https://img.shields.io/github/stars/acl21/diwa?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/acl21/diwa) |
 | 2025-08 | `IRL-VLA`| IRL-VLA: Training an Vision-Language-Action Policy via Reward World Model | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](http://arxiv.org/abs/2508.06571)  |[![GitHub Stars](https://img.shields.io/github/stars/IRL-VLA/IRL-VLA?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/IRL-VLA/IRL-VLA) |
 | 2025-07 | `DMLoco`| Integrating Diffusion-based Multi-task Learning with Online Reinforcement Learning for Robust Quadruped Robot Control | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](http://arxiv.org/abs/2507.05674)  |[![GitHub Stars](https://img.shields.io/github/stars/queenxy/DMLoco?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/queenxy/DMLoco) |
-| 2025-05 | `DiffusionRL`| DiffusionRL: Efficient Training of Diffusion Policies for Robotic Grasping Using RL-Adapted Large-Scale Datasets | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](http://arxiv.org/abs/2505.18876) | |
+| 2025-05 | `DiffusionRL`| DiffusionRL: Efficient Training of Diffusion Policies for Robotic Grasping Using RL-Adapted Large-Scale Datasets | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](http://arxiv.org/abs/2505.18876) | - |
 | 2025-05 | `FQL`| Flow Q-Learning | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](http://arxiv.org/abs/2502.02538)  |[![GitHub Stars](https://img.shields.io/github/stars/seohongpark/fql?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/seohongpark/fql) |
-| 2025-03 | `TrajHF`| Finetuning Generative Trajectory Model with Reinforcement Learning from Human Feedback | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](http://arxiv.org/abs/2503.10434)  | |
-| 2025-01 | `FDPP`| FDPP: Fine-tune Diffusion Policy with Human Preference| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](http://arxiv.org/abs/2501.08259)  | |
+| 2025-03 | `TrajHF`| Finetuning Generative Trajectory Model with Reinforcement Learning from Human Feedback | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](http://arxiv.org/abs/2503.10434)  | - |
+| 2025-01 | `FDPP`| FDPP: Fine-tune Diffusion Policy with Human Preference| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](http://arxiv.org/abs/2501.08259)  | - |
 | 2024-12 | `Policy Decorator`| Policy Decorator: Model-Agnostic Online Refinement for Large Policy Model | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](http://arxiv.org/abs/2412.13630)  |[![GitHub Stars](https://img.shields.io/github/stars/tongzhoumu/policy_decorator?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/tongzhoumu/policy_decorator) |
 | 2024-09 | `DP3`| 3D Diffusion Policy:  Generalizable Visuomotor Policy Learning via Simple 3D Representations | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](http://arxiv.org/abs/2403.03954) | [![GitHub Stars](https://img.shields.io/github/stars/YanjieZe/3D-Diffusion-Policy?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/YanjieZe/3D-Diffusion-Policy) |
 | 2024-09 | `DPPO`| Diffusion Policy Policy Optimization| [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2409.00588) | [![GitHub Stars](https://img.shields.io/github/stars/irom-princeton/dppo?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/irom-princeton/dppo) |
 | 2024-07 | `ResiP`| From Imitation to Refinement Residual RL for Precise Visual Assembly | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2407.16677)  |[![GitHub Stars](https://img.shields.io/github/stars/ankile/robust-rearrangement?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/ankile/robust-rearrangement) |
-| 2024-02 | `SRDP`| Diffusion Policies for Out-of-Distribution Generalization in Offline Reinforcement Learning| [ Paper ](https://ieeexplore.ieee.org/abstract/document/10423845) | |
+| 2024-02 | `SRDP`| Diffusion Policies for Out-of-Distribution Generalization in Offline Reinforcement Learning| [ Paper ](https://ieeexplore.ieee.org/abstract/document/10423845) | - |
 | 2023-03 | `DP`| Diffusion Policy: Visuomotor Policy Learning via Action Diffusion | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2303.04137) | [![GitHub Stars](https://img.shields.io/github/stars/real-stanford/diffusion_policy?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/real-stanford/diffusion_policy) |
 
 ---
-### 🔬 RL-dScience
+### Reinforcement Learning for Diffusion Science Models
 
 RL-driven diffusion in **scientific domains** (molecule, protein, physics, material science).
 
@@ -205,7 +206,7 @@ RL-driven diffusion in **scientific domains** (molecule, protein, physics, mater
 | 2025-10 | `RL-Diffusion` | Uncertainty-Aware Multi-Objective Reinforcement Learning-Guided Diffusion Models for 3D De Novo Molecular Design | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.21153) | [![GitHub Stars](https://img.shields.io/github/stars/Kyle4490/RL-Diffusion?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/Kyle4490/RL-Diffusion) |
 | 2025-09 | `PIRF` | PIRF: Physics-Informed Reward Fine-Tuning for Diffusion Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2509.20570) | [![GitHub Stars](https://img.shields.io/github/stars/mingze-yuan/PIRF?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/mingze-yuan/PIRF) |
 | 2025-08 | `RLPF` | Guiding Diffusion Models with Reinforcement Learning for Stable Molecule Generation | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2508.16521) | [![GitHub Stars](https://img.shields.io/github/stars/ZhijianZhou/RLPF?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/ZhijianZhou/RLPF/tree/verl_diffusion) |
-| 2025-08 | `AlphaFold` |       | [![Blog](https://img.shields.io/badge/blog-111111?style=for-the-badge&logo=hashnode&logoColor=white)](https://deepmind.google/science/alphafold/) | |
+| 2025-08 | `AlphaFold` | AlphaFold | [![Blog](https://img.shields.io/badge/blog-111111?style=for-the-badge&logo=hashnode&logoColor=white)](https://deepmind.google/science/alphafold/) | - |
 | 2025-07 | `SDPO` | Discrete Diffusion Trajectory Alignment via Stepwise Decomposition | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2507.04832) | [![GitHub Stars](https://img.shields.io/github/stars/hanjq17/discrete-diffusion-sdpo?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/hanjq17/discrete-diffusion-sdpo) |
 | 2025-07 | `VIDD` | Iterative Distillation for Reward-Guided Fine-Tuning of Diffusion Models in Biomolecular Design | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2507.00445) | [![GitHub Stars](https://img.shields.io/github/stars/divelab/VIDD?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/divelab/VIDD) |
 | 2025-05 | `SGPO` | Steering Generative Models with Experimental Data for Protein Fitness Optimization | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.15093) | [![GitHub Stars](https://img.shields.io/github/stars/jsunn-y/SGPO?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/jsunn-y/SGPO) |
@@ -214,7 +215,7 @@ RL-driven diffusion in **scientific domains** (molecule, protein, physics, mater
 
 ---
 
-## 📌 Contributing
+## Contributing
 
 Contributions are welcome! 🎉
 If you want to add a new paper, dataset, or resource:

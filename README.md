@@ -278,8 +278,6 @@ Applications of RL-driven diffusion to scientific generation and inverse design.
 ## Contributing
 
 Contributions are welcome! 🎉
-If you want to add a new paper, dataset, or resource:
+If you want to add a new paper, survey, dataset, code repository, or other related resource, please follow the repository's pull request workflow.
 
-1. Fork this repository
-2. Add your entry in the appropriate section
-3. Submit a Pull Request
+Please see [commit.md](./commit.md) for the full open-source contribution and PR merge guide, including how to fork the repository, create a working branch, format new paper entries, keep tables sorted by date, sync with upstream `main`, and open a pull request for maintainer review.

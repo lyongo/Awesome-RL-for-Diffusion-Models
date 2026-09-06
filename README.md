@@ -15,12 +15,13 @@
 
 ## Contents
 
-1. [Reinforcement Learning for Diffusion Large Language Models](#reinforcement-learning-for-diffusion-large-language-models)
-2. [Reinforcement Learning for Diffusion Vision Models](#reinforcement-learning-for-diffusion-vision-models)
-3. [Reinforcement Learning for Diffusion Multimodal Models](#reinforcement-learning-for-diffusion-multimodal-models)
-4. [Reinforcement Learning for Diffusion Robotics](#reinforcement-learning-for-diffusion-robotics)
-5. [Reinforcement Learning for Diffusion Science Models](#reinforcement-learning-for-diffusion-science-models)
-6. [Contributing](#contributing)
+1. [On-Policy Distillation for Diffusion Models](#on-policy-distillation-for-diffusion-models)
+2. [Reinforcement Learning for Diffusion Large Language Models](#reinforcement-learning-for-diffusion-large-language-models)
+3. [Reinforcement Learning for Diffusion Vision Models](#reinforcement-learning-for-diffusion-vision-models)
+4. [Reinforcement Learning for Diffusion Multimodal Models](#reinforcement-learning-for-diffusion-multimodal-models)
+5. [Reinforcement Learning for Diffusion Robotics](#reinforcement-learning-for-diffusion-robotics)
+6. [Reinforcement Learning for Diffusion Science Models](#reinforcement-learning-for-diffusion-science-models)
+7. [Contributing](#contributing)
 ---
 <!-- Paper 列使用 arXiv 徽章：https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white
 <!-- [![Blog](https://img.shields.io/badge/blog-111111?style=for-the-badge&logo=hashnode&logoColor=white)](https://example.com/blog-post) -->
@@ -29,6 +30,30 @@
 
 
 ## Paper List
+
+### On-Policy Distillation for Diffusion Models
+
+OPD-style methods for diffusion and flow models, including teacher-guided on-policy distillation, self-distillation, flow-map distillation, and diffusion language model trajectory distillation.
+
+| Date   | Name   | Title                                                               | Paper | Code |
+|:------:|:------:|---------------------------------------------------------------------|-------|------|
+| 2026-08 | `Self-OPD` | Self-OPD: On-Policy Distillation for Flow Matching Models without Teacher | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.26872) | - |
+| 2026-08 | `DiffusionOPSD` | On-Policy Self-Distillation in Diffusion Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.24646) | [![GitHub Stars](https://img.shields.io/github/stars/worldbench/DiffusionOPSD?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/worldbench/DiffusionOPSD) |
+| 2026-08 | `DreOPD` | DreOPD: Degraded-Reference Extrapolative On-Policy Distillation for Flow-matching Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.09233) | - |
+| 2026-08 | `STEP-OPD` | STEP-OPD: Rethinking Output Targets and Internal Dynamics in On-Policy Distillation for Diffusion Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.04887) | - |
+| 2026-08 | `Poly-OPD` | Poly-OPD: Heterogeneous Multi-Teacher On-Policy Distillation for Capability-Selectable Flow Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.04349) | - |
+| 2026-08 | `Any-OPD` | Any-OPD: Heterogeneous On-Policy Distillation for Flow-Matching Models via Representation-Space Bridging | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.03316) | - |
+| 2026-07 | `CFG-OPD` | Rethinking Classifier-Free Guidance in On-Policy Diffusion Distillation | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.24731) | - |
+| 2026-07 | `FlowCTS` | FlowCTS: On-policy Continuous Trajectory Supervision of Flow Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.24522) | - |
+| 2026-07 | `TOPD` | Trace-Based On-Policy Distillation for Masked Diffusion Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.16872) | - |
+| 2026-07 | `dOPSD` | dOPSD: On-Policy Self-Distillation for Diffusion Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.04428) | - |
+| 2026-05 | `DiffusionOPD` | DiffusionOPD: A Unified Perspective of On-Policy Distillation in Diffusion Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.15055) | [![GitHub Stars](https://img.shields.io/github/stars/ali-vilab/DiffusionOPD?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/ali-vilab/DiffusionOPD) |
+| 2026-05 | `AnyFlow` | AnyFlow: Any-Step Video Diffusion Model with On-Policy Flow Map Distillation | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.13724) | [![GitHub Stars](https://img.shields.io/github/stars/NVlabs/AnyFlow?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/NVlabs/AnyFlow) |
+| 2026-05 | `Flow-OPD` | On-Policy Distillation for Flow Matching Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.08063) | [![GitHub Stars](https://img.shields.io/github/stars/CostaliyA/Flow-OPD?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/CostaliyA/Flow-OPD) |
+| 2026-05 | `D-OPSD` | D-OPSD: On-Policy Self-Distillation for Continuously Tuning Step-Distilled Diffusion Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.05204) | - |
+| 2026-05 | `GDSD` | GDSD: Reinforcement Learning as Guided Denoiser Self-Distillation for Diffusion Language Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.29398) | [![GitHub Stars](https://img.shields.io/github/stars/GaryBall/GDSD?style=for-the-badge&logo=github&label=GitHub&color=black)](https://github.com/GaryBall/GDSD) |
+
+---
 
 ### Reinforcement Learning for Diffusion Large Language Models
 
